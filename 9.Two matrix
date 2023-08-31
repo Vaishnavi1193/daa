@@ -1,0 +1,27 @@
+#include <stdio.h>
+ 
+int main()
+{
+    int a,b;
+    int mul,loop;
+     
+    printf("Enter first number: ");
+    scanf("%d",&a);
+    printf("Enter second number: ");
+    scanf("%d",&b);
+     
+    mul=0;
+
+    for(loop=1;loop<=b;loop++){
+        mul += a;
+    }
+
+    printf("Multiplication of %d and %d is: %d\n",a,b,mul);
+
+    return 0;
+}
+
+OUTPUT:
+Enter first number: 34
+Enter second number: 43
+Multiplication of 34 and 43 is: 1462
